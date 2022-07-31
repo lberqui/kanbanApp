@@ -1,5 +1,5 @@
 // Apuntamos al formulario para crear la nueva tarea del HTML
-const form = document.querySelector('#formTarea');
+const form = document.getElementById('#formTarea');
 
 form.addEventListener('submit', (ev) => {
   // Evitamos que la pagina se recargue cuando se envian los datos
