@@ -61,9 +61,9 @@ const createTask = (task) => {
   newTask.appendChild(taskCreate);
 
   // Referenciamos por medio del ID las columnas
-  let columnToDo = document.getElementById("#porHacer");
-  let columnInProgress = document.getElementById("#enProceso");
-  let columnDone = document.getElementById("#terminada");
+  let columnToDo = document.querySelector("#porHacer");
+  let columnInProgress = document.querySelector("#enProceso");
+  let columnDone = document.querySelector("#terminada");
 
   // Preguntamos dependiendo el state que trae nuestra API es igual a to-do lo ubique en esa columna
   if (task.state === "to-do") {
