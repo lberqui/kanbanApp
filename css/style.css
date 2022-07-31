@@ -1,0 +1,117 @@
+.container{
+    padding-top: 2em;
+    height: auto;
+}
+
+.panel {
+    margin-left: 1em;
+    float: left;
+    width: 25em;
+    text-align: center;
+   
+
+    
+}
+
+
+.panel-body {
+    height: 45em;
+    border: 1px solid;
+    background-color: white;
+}
+
+button {
+
+    position: absolute;
+    right: 40px;
+}
+
+#trello {
+
+   position: absolute;
+   left: 40px;
+}
+
+nav button{
+    margin-bottom: 2em;
+}
+
+body {
+    background-color: #cccccc;
+}
+
+nav{
+    padding-top: 2em;
+    background-color: #404040;
+    height: 100px;
+}
+
+.panel-heading{
+margin-top:1em;
+padding-top: 1em;
+border-radius: 0.2em;
+
+
+}
+
+.modal-header {
+background-color:#404040;
+color:#ffffff;
+font-size: 1.2em;
+font-weight: bold;
+}
+
+
+
+.modal-footer .input-group{
+    margin-bottom: 0.5em;
+    
+}
+
+.panel-heading{
+
+    padding-bottom: 0.5em;
+}
+
+.imgTarea{
+    padding: 1em;
+}
+
+#imgTarea{
+    height: 10em;
+    width: 10em;
+   
+}
+
+.modal-dialog{
+    max-width: 450px;
+}
+.imgTarea{
+    padding-right: 8em;
+    
+}
+
+#btnCancelarTarea{
+    margin: 0.5em;
+    margin-right: 1.7em;
+   
+}
+
+#btnNuevaTarea{
+    margin: 0.5em;
+    margin-right: 8em;
+}
+
+form{
+    padding-right: 3em;
+    
+   
+}
+
+form *{
+    margin-bottom: 1em;
+}
+.modal-content{
+
+    height: 45em;
+}
