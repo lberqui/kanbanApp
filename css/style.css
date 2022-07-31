@@ -15,12 +15,14 @@
 
 
 .panel-body {
+    scroll-behavior: auto;
     height: 45em;
     border: 1px solid;
     background-color: white;
     
     
 }
+
 
 button {
 
@@ -145,3 +147,18 @@ article{
   .draggable-container--over {
     border: none;
   }
+
+  .card-task 
+{
+  padding: var(--gutter);
+  box-shadow: var(--box-shadow-sm);
+  border-radius: var(--border-radius-md);
+  /* transition: var(--duration-transition-base); */
+  cursor: pointer;
+}
+
+.card-task:hover
+{
+  transform: scale(1.01);
+}
+
