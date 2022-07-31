@@ -5,7 +5,7 @@ const API_URL = "https://my-json-server.typicode.com/lberqui/kanbanApp";
 axios
   .get(`${API_URL}/tasks`)
   .then((res) => showAllTasks(res.data))
-  .catch((err) => console.error(err));
+  // .catch((err) => console.error(err));
 
 // Filtramos toda la información que recibimos de la API y la mapeamos
 const showAllTasks = (data) => {
@@ -62,8 +62,8 @@ const createTask = (task) => {
 
   // Referenciamos por medio del ID las columnas
   let columnToDo = document.getElementById("#porHacer");
-  let columnInProgress = document.getElementById("#progressTasks");
-  let columnDone = document.getElementById("#doneTasks");
+  let columnInProgress = document.getElementById("#enProceso");
+  let columnDone = document.getElementById("#terminada");
 
   // Preguntamos dependiendo el state que trae nuestra API es igual a to-do lo ubique en esa columna
   if (task.state === "to-do") {
